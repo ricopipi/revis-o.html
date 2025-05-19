@@ -1,0 +1,139 @@
+body{
+    background: linear-gradient(to bottom, #8f5526,#4e1d00);
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+
+}
+
+.menu{
+    position: relative;
+    background-color: rgb(78, 37, 4);
+    height: 78vh;
+    width: 20vw;
+    margin-top: 100px;
+    margin-left: 35px;
+    color: beige;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.menu h3{
+    font-size: 56px;
+    font-size: 'JaguarJC', sans-serif;
+}
+.menu ul{
+    font-size: 32px;
+    list-style: none;
+    padding: 0;
+
+}
+.menu li{
+    margin: 20px;
+    background-color: rgb(117, 59, 20);
+    padding: 10px;
+    text-align: center;
+    width: 240px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu li:hover{
+    cursor: pointer;
+    background-color: rgb(105, 60, 23);
+    scale: 1.01;
+    transition-property: all;
+    
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+.principal{
+   
+    background-color: rgb(78, 37, 4);
+    height: 98vh; 
+    width: 98vw;
+    color: beige;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 30px;
+    
+}
+
+.top{
+    
+    font-size: 56px;
+    background-color:rgb(117, 59, 20);
+    font-size: 'JaguarJC', sans-serif;
+    width: 76vw;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+.post{
+    font-size: 25px;
+    font-size: 'JaguarJC', sans-serif;
+    background-color: rgb(117, 59, 20);
+    height: 40vh;
+    width: 76vw;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+    
+}
+.post p{
+
+    margin: 40px;
+    line-height: 40px;
+}
+.cardboard{
+    display: flex;
+    background-color:rgb(117, 59, 20);
+    color: beige;
+    height: 30vh;
+    width: 76vw;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+ img {
+    margin-top: 8px;
+    width: 30%; 
+    height: 270px; 
+    border-radius: 10px;
+    left: -60px;
+    text-align: center;
+    margin-left: 8px;
+    
+  } 
+.cleiton{
+    position: absolute;
+}
+.body{
+    display: flex;
+    /* height: 100vh;
+    width: 100vw; */
+    justify-content: center;
+}
+#image{
+    margin-top: -10px;
+    position: absolute;
+    height: 110vh;
+    width: 120vw;
+    filter: blur(6px);
+}
+
+.cleitonn {
+    margin-left: -1865px;
+    margin-top: 10px;
+    font-size: 30px;
+}
