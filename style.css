@@ -6,7 +6,9 @@ body{
     gap: 20px;
 
 }
-
+ *{
+    box-sizing: border-box;
+ }
 .menu{
     position: relative;
     background-color: rgb(78, 37, 4);
@@ -77,6 +79,16 @@ a{
     border-radius: 10px;
 
 }
+.topo{
+    
+    font-size: 30px;
+    background-color:rgb(117, 59, 20);
+    font-size: 'JaguarJC', sans-serif;
+
+    margin: 15px;
+    border-radius: 10px;
+
+}
 .post{
     font-size: 25px;
     font-size: 'JaguarJC', sans-serif;
@@ -136,4 +148,29 @@ a{
     margin-left: -1865px;
     margin-top: 10px;
     font-size: 30px;
+}
+.conteudo-cadastro{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+    background-color: rgb(117, 59, 20);
+    color: beige;
+    border-radius: 15px;
+}
+.conteudo-cadastro input{
+    background-color: rgb(245, 245, 237);
+    
+    font-size: 26px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.conteudo-cadastro button{
+    font-size: 26px;
+    font-size: 'JaguarJC', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(180, 180, 168);
+
+
 }
